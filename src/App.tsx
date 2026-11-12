@@ -1,8 +1,13 @@
+import MainLayout from "./layouts/MainLayout";
+import Header from "./components/Header";
+import Hero from "./sections/Hero";
+
 function App() {
     return (
-        <div className="w-full h-screen flex items-center justify-center">
-            <p className="text-3xl">@rodscripts</p>
-        </div>
+        <MainLayout>
+            <Header/>
+            <Hero/>
+        </MainLayout>
     )
 }
 
